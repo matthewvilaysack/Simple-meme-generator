@@ -1,0 +1,52 @@
+.root {
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+* {
+    font: inherit
+}
+
+
+
+p {
+    margin-left: 40%;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 2em;
+    
+}
+
+#meme-canvas {
+    display: block;
+    text-align: center;
+    width: 40%;
+
+}
+
+.textbox{
+        margin: 10px auto;
+        width: 34%;
+        padding: 50px 0;
+        border: 3px solid black;
+        display: flex;
+}
+
+#top-text-size-input, #bottom-text-size-input {
+    display: inline-block;
+    float: right;
+    width: 34%;
+    margin: 0 auto;
+
+    
+}
+#top-text, #bottom-text {
+    width: 34%;
+    margin: auto;
+    
+}
+
+#generate-btn {
+    margin-left: 10%;
+}
+
